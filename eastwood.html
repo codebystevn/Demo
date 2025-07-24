@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="a forex academy aimed at simplifying the world of forex Trading"
+    />
+    <title>Novice</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon (1).ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      p {
+        font-weight: 300px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      .head {
+        background-color: rgb(231, 7, 44);
+        font-size: 200%;
+        font-family: Arial Narrow Bold;
+        border: 2px solid crimson;
+        padding-left: 10px;
+        margin: 20px;
+        margin-left: 0px;
+      }
+      body {
+        background-color: powderblue;
+        font-size: 20px;
+        font-style: normal;
+        font-family: Times New Roman;
+        text-align: center;
+      }
+      button:link,
+      button:visited {
+        background-color: maroon;
+        color: red;
+        padding: 10px 20px;
+        text-align: center;
+        display: inline-block;
+      }
+      button:hover,
+      button:active {
+        background-color: transparent;
+      }
+      p {
+        background-image: url("images/jennyfxlogo.jpg");
+      }
+      img {
+        border-radius: 150px;
+        margin: 20px;
+        width: 300px;
+        height: 300px;
+      }
+      table,
+      th,
+      td {
+        width: 70%;
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+        margin-left: 1%;
+      }
+      form {
+        text-align: left;
+        margin-left: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="head">WELCOME</h1>
+    <h2 class="head">About</h2>
+    <img src="images/jennyfxlogo.jpg" alt="Header image" />
+    <p style="color: blueviolet; font-size: 150%">
+      This is Jenny FX landing page.
+    </p>
+    <p
+      style="font-style: normal; font-size: 20px; font-family: Times New Roman"
+    >
+      Here we talk about the <strong>impact</strong> forex has made in the lives
+      of her mentees. <br />
+      It is important to note that forex is <strong>NOT</strong> a scam. <br />
+      <em> < html > < /html ></em> are the opening and closing tags of a html
+      source code. <br />
+      JennyFx Academy's goal is to:
+      <b><q>Build profitable traders in the forex space</q> </b>
+      <!--It is important to leave comments on your code for the next developer-->
+    </p>
+    <p>
+      Send an email for 1-on-1 mentorship <br />
+      <button onclick="window.location.href='mailto:jennyfxacademy@gmail.com'">
+        Send Mail
+      </button>
+    </p>
+    <br /><br />
+    <table>
+      <caption>
+        Contact Information
+      </caption>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>Jennifer Emmanuel</td>
+        <td>jennyfxacademy@gmail.com</td>
+        <td>Asaba, Nigeria</td>
+      </tr>
+    </table>
+    <br /><br />
+    <form action="mailto:jennyfxacademy@gmail.com">
+      <label for="fname">Full Name</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="Email">Email</label><br />
+      <input type="text" id="Email" name="Email" /><br />
+      <label for="message">Message</label><br />
+      <textarea name="message" id="message"></textarea><br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
